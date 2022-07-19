@@ -5,7 +5,7 @@ int main()
 	char s[] = "Ha,Ha,Ha this letter H must disappear";
 	char* p = new char[1000];
 	*p = NULL;
-	char c = 'H'; //the character to be removed
+	char c = 'H'; //the character to be trimed
 	int i, j = 0;
 	for (i = 0; s[i] != '\0'; i++)
 	{
